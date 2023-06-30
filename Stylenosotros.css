@@ -1,0 +1,51 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+    font-weight: 100;
+    font-size: 40px;
+    background-color: cadetblue;
+}
+.list nav {
+    display: flex;
+    justify-content: space-around;
+}
+.list nav ul{   
+    list-style: none;
+    display: flex;
+    cursor: pointer; /*tipo de cursor sobre la lista*/
+}  
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: cursive;
+    padding: 12px 20px;
+    
+}
+a:hover{
+    background-color: rgb(50, 2, 31);
+    border-radius: 50%;
+    border: 4px groove black;
+}
+h1{
+    color: rgb(19, 5, 124);
+    text-decoration: underline;
+    font-size: 50px;
+    text-align: center;
+    font-family: cursive;
+}
+h3{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+h4{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
